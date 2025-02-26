@@ -4,7 +4,7 @@
       <h2>Form Sample</h2>
     </div>
     <div class="pl-4">
-      <InputText id="in_label" placeholder="Enter e-mail" v-model="txtInput" variant="filled" size="small"  />
+      <InputText id="in_label" placeholder="Enter e-mail" v-model="txtInput" variant="filled" size="small" />
     </div>
     <div class="pl-4">
       <Select v-model="selectedCity" :options="cities" optionLabel="name" placeholder="Select a City" size="small" />
