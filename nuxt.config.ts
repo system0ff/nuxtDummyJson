@@ -13,6 +13,12 @@ export default defineNuxtConfig({
       }
     }
   },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   css: [
     'primeicons/primeicons.css'
   ]
